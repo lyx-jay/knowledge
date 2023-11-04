@@ -22,3 +22,20 @@
 	<div style='width: 100px; height: 60px; background: lightcoral; margin-left: auto'></div>
 	<div style='width: 100px; height: 60px; background: lightcoral;'></div>
 </div>
+
+## 多列布局
+
+<div style='display:flex; width: 100%; height: 100px; background: lightgray; align-items: center;'>
+	<div style='width: 50px; height: 60px; background: lightcoral;
+	margin: 0 calc((100% - 50px * 5) / 5 / 2)'></div>
+	<div style='width: 50px; height: 60px; background: lightcoral;
+	margin: 0 calc((100% - 50px * 5) / 5 / 2)'></div>
+	<div style='width: 50px; height: 60px; background: lightcoral;
+	margin: 0 calc((100% - 50px * 5) / 5 / 2)'></div>
+	<div style='width: 50px; height: 60px; background: lightcoral;
+	margin: 0 calc((100% - 50px * 5) / 5 / 2)'></div>
+	<div style='width: 50px; height: 60px; background: lightcoral;
+	margin: 0 calc((100% - 50px * 5) / 5 / 2)'></div>
+</div>
+
+这种布局方式可以避免使用 `justify-content: space-between`  时出现的最后一行两个元素一左一右的情况
