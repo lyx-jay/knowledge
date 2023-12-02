@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"3e380e17580a1808","x":-365,"y":-60,"width":165,"height":80,"type":"text","text":"获得本次提交修改的代码"},
+		{"id":"c1f2f395509448c4","x":-365,"y":-240,"width":165,"height":60,"type":"text","text":"代码改动提交"},
+		{"id":"c0036f677ccefbed","x":-120,"y":-270,"width":205,"height":60,"type":"text","text":"分析项目文件引用结构"}
+	],
+	"edges":[]
+}
