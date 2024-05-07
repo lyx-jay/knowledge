@@ -2,3 +2,6 @@
 2. 目前推荐的跨窗口通信方案是：`postMessage`
  - [ ] 跨窗口的 `cookie`。
 	 - [ ] Iframe 中的 cookie 与宿主文档的 cookie 有什么关系？怎样互相影响
+
+
+参考文章：https://juejin.cn/post/7127916577684471845
